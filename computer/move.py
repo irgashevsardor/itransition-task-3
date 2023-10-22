@@ -1,11 +1,11 @@
-"""The module provides implementation for a computer in the game"""
+"""The module provides implementation for a computer move in the game"""
 
 import random
 from key_generator import secure_token
 
 
-class Computer:
-    """Represents a computer"""
+class Move:
+    """Represents a computer move"""
 
     def __init__(self, moves) -> None:
         self.moves = moves
